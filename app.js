@@ -1,6 +1,7 @@
 let addbtn = document.getElementById("add");
 var input = document.getElementById("input");
 var todo = document.getElementById("todo");
+console.log("Hello");
 
 addbtn.addEventListener("click", function () {
   var para = document.createElement("p");
