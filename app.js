@@ -2,6 +2,9 @@ let addbtn = document.getElementById("add");
 var input = document.getElementById("input");
 var todo = document.getElementById("todo");
 console.log("Hello");
+console.log("World");
+
+
 
 addbtn.addEventListener("click", function () {
   var para = document.createElement("p");
